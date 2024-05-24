@@ -1,0 +1,16 @@
+#!/bin/bash
+yum update -y
+yum install git -y
+yum install python3 -y
+
+pip install -r requirements.txt 
+
+cd /home/ec2-user
+
+git clone https://github.com/MohamadSamaka/Poky
+cd Poky
+
+chmod +x *.py
+python3 main.py
+
+echo "python3 /home/ec2-user/Poky/main.py" >> /home/ec2-user/.bashrc
