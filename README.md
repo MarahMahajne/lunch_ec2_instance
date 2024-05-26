@@ -14,7 +14,7 @@ This repository contains a script to automate the creation of a Bastion Host and
 
     ```sh
     git clone git@github.com:MarahMahajne/lunch_ec2_instance.git
-    cd aws-ec2-instance-creation-lab
+    cd lunch_ec2_instance
     ```
 
 2. Install required Python libraries:
