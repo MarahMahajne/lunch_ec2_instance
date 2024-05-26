@@ -1,4 +1,4 @@
-# AWS EC2 Instance Creation Lab
+# AWS EC2 Instance Creation Lab - (lab 171 in AWS)
 
 This repository contains a script to automate the creation of a Bastion Host and a Web Server on AWS EC2 using Boto3. The script ensures that the latest Amazon Linux 2 AMI is used and sets up necessary security groups and key pairs.
 
