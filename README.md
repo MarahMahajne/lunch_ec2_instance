@@ -13,7 +13,7 @@ This repository contains a script to automate the creation of a Bastion Host and
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/your-username/aws-ec2-instance-creation-lab.git
+    git clone git@github.com:MarahMahajne/lunch_ec2_instance.git
     cd aws-ec2-instance-creation-lab
     ```
 
